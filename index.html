@@ -117,41 +117,10 @@
         <strong style="color:#c0392b;">赤いアスタリスク（*）の部分は必ず入力すること</strong></p>
 
         <div class="warn" style="margin-bottom:16px;">
-          ⚠️ <strong>バクラクの「承認期限」は最短（または第３営業日頃）で設定すること。</strong><br>
-          この日付は<strong>決裁者に締め切りとして表示される</strong>日付です。<br>
-          月次の申請〆切は<strong>第５営業日</strong>ですが、承認フローが複数段階あり土日は経理が稼働しないため、
-          逆算して<strong>第３営業日頃</strong>を承認期限に設定しないと間に合いません。
-        </div>
-        <div style="background:#f8f9ff; border:1px solid #dde3f5; border-radius:8px; padding:16px; margin-bottom:20px;">
-          <div style="font-weight:700; font-size:14px; color:#1a1a2e; margin-bottom:12px;">📅 申請・承認 締切スケジュール（経理ルール）</div>
-          <table style="width:100%; border-collapse:collapse; font-size:13px;">
-            <thead>
-              <tr style="background:#1a1a2e; color:white;">
-                <th style="padding:8px 12px; text-align:left;">種別</th>
-                <th style="padding:8px 12px; text-align:left;">バクラクの承認期限設定</th>
-                <th style="padding:8px 12px; text-align:left;">申請〆切（経理ルール）</th>
-                <th style="padding:8px 12px; text-align:left;">承認〆切（経理ルール）</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr style="background:white;">
-                <td style="padding:10px 12px; border-bottom:1px solid #eee; font-weight:600;">月次分まとめて</td>
-                <td style="padding:10px 12px; border-bottom:1px solid #eee; color:#c0392b; font-weight:700;">翌月初 第３営業日頃<br><span style="font-size:11px; font-weight:400; color:#888;">例：3月分 → 4月3日（金）に設定<br>※最短でもOK</span></td>
-                <td style="padding:10px 12px; border-bottom:1px solid #eee;">翌月初 第５営業日<br><span style="font-size:11px; color:#888;">例：4月7日（火）</span></td>
-                <td style="padding:10px 12px; border-bottom:1px solid #eee;">翌月初 第７営業日<br><span style="font-size:11px; color:#888;">例：4月9日（木）</span></td>
-              </tr>
-              <tr style="background:#fafafa;">
-                <td style="padding:10px 12px; font-weight:600;">毎週（急ぎの支払のみ）</td>
-                <td style="padding:10px 12px; color:#c0392b; font-weight:700;">当週水曜日<br><span style="font-size:11px; font-weight:400; color:#888;">例：水曜中に申請・期限も水曜に設定</span></td>
-                <td style="padding:10px 12px;">毎週水曜日<br><span style="font-size:11px; color:#888;">例：4/1（水）中に申請完了</span></td>
-                <td style="padding:10px 12px;">毎週木曜日 15時<br><span style="font-size:11px; color:#888;">例：4/2（木）15時までに承認</span></td>
-              </tr>
-            </tbody>
-          </table>
-          <div style="margin-top:12px; font-size:12px; color:#666; line-height:1.6;">
-            💡 <strong>なぜ第３営業日に設定するか？</strong><br>
-            4月の例：第５営業日＝4/7（火）が申請〆切。土日をはさむため、承認フローを回すには4/3（金）＝第３営業日までに決裁者が動ける状態にする必要がある。
-          </div>
+          ⚠️ <strong>バクラクの「承認期限」は、支払依頼申請の締め切りより前（目安：第３営業日頃）に設定すること。</strong><br>
+          例：4月分 → 4/3（金）頃に設定（4月の第３営業日）<br>
+          稟議の承認が完了していないと、支払依頼申請に進めません。<br>
+          支払依頼申請の締め切りスケジュールはこちら：<a href="#" onclick="switchSub('shinsei','shiharai'); return false;"><img src="支払依頼申請ボタン.png" alt="支払依頼申請タブへ" style="height:36px; margin-left:6px; vertical-align:middle; border-radius:6px; cursor:pointer;"></a>
         </div>
 
         <ul class="steps">
@@ -234,41 +203,10 @@
         <strong style="color:#c0392b;">赤いアスタリスク（*）の部分は必ず入力すること</strong></p>
 
         <div class="warn" style="margin-bottom:16px;">
-          ⚠️ <strong>バクラクの「承認期限」は最短（または第３営業日頃）で設定すること。</strong><br>
-          この日付は<strong>決裁者に締め切りとして表示される</strong>日付です。<br>
-          月次の申請〆切は<strong>第５営業日</strong>ですが、承認フローが複数段階あり土日は経理が稼働しないため、
-          逆算して<strong>第３営業日頃</strong>を承認期限に設定しないと間に合いません。
-        </div>
-        <div style="background:#f8f9ff; border:1px solid #dde3f5; border-radius:8px; padding:16px; margin-bottom:20px;">
-          <div style="font-weight:700; font-size:14px; color:#1a1a2e; margin-bottom:12px;">📅 申請・承認 締切スケジュール（経理ルール）</div>
-          <table style="width:100%; border-collapse:collapse; font-size:13px;">
-            <thead>
-              <tr style="background:#1a1a2e; color:white;">
-                <th style="padding:8px 12px; text-align:left;">種別</th>
-                <th style="padding:8px 12px; text-align:left;">バクラクの承認期限設定</th>
-                <th style="padding:8px 12px; text-align:left;">申請〆切（経理ルール）</th>
-                <th style="padding:8px 12px; text-align:left;">承認〆切（経理ルール）</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr style="background:white;">
-                <td style="padding:10px 12px; border-bottom:1px solid #eee; font-weight:600;">月次分まとめて</td>
-                <td style="padding:10px 12px; border-bottom:1px solid #eee; color:#c0392b; font-weight:700;">翌月初 第３営業日頃<br><span style="font-size:11px; font-weight:400; color:#888;">例：3月分 → 4月3日（金）に設定<br>※最短でもOK</span></td>
-                <td style="padding:10px 12px; border-bottom:1px solid #eee;">翌月初 第５営業日<br><span style="font-size:11px; color:#888;">例：4月7日（火）</span></td>
-                <td style="padding:10px 12px; border-bottom:1px solid #eee;">翌月初 第７営業日<br><span style="font-size:11px; color:#888;">例：4月9日（木）</span></td>
-              </tr>
-              <tr style="background:#fafafa;">
-                <td style="padding:10px 12px; font-weight:600;">毎週（急ぎの支払のみ）</td>
-                <td style="padding:10px 12px; color:#c0392b; font-weight:700;">当週水曜日<br><span style="font-size:11px; font-weight:400; color:#888;">例：水曜中に申請・期限も水曜に設定</span></td>
-                <td style="padding:10px 12px;">毎週水曜日<br><span style="font-size:11px; color:#888;">例：4/1（水）中に申請完了</span></td>
-                <td style="padding:10px 12px;">毎週木曜日 15時<br><span style="font-size:11px; color:#888;">例：4/2（木）15時までに承認</span></td>
-              </tr>
-            </tbody>
-          </table>
-          <div style="margin-top:12px; font-size:12px; color:#666; line-height:1.6;">
-            💡 <strong>なぜ第３営業日に設定するか？</strong><br>
-            4月の例：第５営業日＝4/7（火）が申請〆切。土日をはさむため、承認フローを回すには4/3（金）＝第３営業日までに決裁者が動ける状態にする必要がある。
-          </div>
+          ⚠️ <strong>バクラクの「承認期限」は、支払依頼申請の締め切りより前（目安：第３営業日頃）に設定すること。</strong><br>
+          例：4月分 → 4/3（金）頃に設定（4月の第３営業日）<br>
+          稟議の承認が完了していないと、支払依頼申請に進めません。<br>
+          支払依頼申請の締め切りスケジュールはこちら：<a href="#" onclick="switchSub('shinsei','shiharai'); return false;"><img src="支払依頼申請ボタン.png" alt="支払依頼申請タブへ" style="height:36px; margin-left:6px; vertical-align:middle; border-radius:6px; cursor:pointer;"></a>
         </div>
 
         <div class="tip">承認済からフリーワード検索で会社名を入れて、過去の申請を参考にする。</div>
@@ -403,6 +341,94 @@
       <div class="card">
         <h2>支払依頼申請</h2>
         <p class="desc">承認済みの稟議に紐づけて、経理に実際の支払いを依頼する申請です。稟議申請の承認が完了してから行います。<br>返金対応のときは稟議がないため、新規取引先登録申請が承認されてから申請する。</p>
+
+        <div class="warn" style="margin-bottom:16px;">
+          ⚠️ <strong>支払依頼申請の締め切りに間に合わせるには、稟議の承認を事前に済ませておく必要があります。</strong><br>
+          稟議の承認期限は、支払依頼申請の締め切りより前（目安：第３営業日頃）に設定してください。<br>
+          例：4月分 → 4/3（金）頃に設定（4月の第３営業日）
+        </div>
+        <div style="background:#f8f9ff; border:1px solid #dde3f5; border-radius:8px; padding:16px; margin-bottom:20px;">
+          <div style="font-weight:700; font-size:14px; color:#1a1a2e; margin-bottom:12px;">📅 支払依頼申請の締切スケジュール（経理ルール）</div>
+          <table style="width:100%; border-collapse:collapse; font-size:13px;">
+            <thead>
+              <tr style="background:#1a1a2e; color:white;">
+                <th style="padding:8px 12px; text-align:left;">種別</th>
+                <th style="padding:8px 12px; text-align:left;">申請〆切（経理ルール）</th>
+                <th style="padding:8px 12px; text-align:left;">承認〆切（経理ルール）</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="background:white;">
+                <td style="padding:10px 12px; border-bottom:1px solid #eee; font-weight:600;">月次分まとめて</td>
+                <td style="padding:10px 12px; border-bottom:1px solid #eee;">翌月初 第５営業日<br><span style="font-size:11px; color:#888;">例：4月7日（火）</span></td>
+                <td style="padding:10px 12px; border-bottom:1px solid #eee;">翌月初 第７営業日<br><span style="font-size:11px; color:#888;">例：4月9日（木）</span></td>
+              </tr>
+              <tr style="background:#fafafa;">
+                <td style="padding:10px 12px; font-weight:600;">毎週（急ぎの支払のみ）</td>
+                <td style="padding:10px 12px;">毎週水曜日<br><span style="font-size:11px; color:#888;">例：4/1（水）中に申請完了</span></td>
+                <td style="padding:10px 12px;">毎週木曜日 15時<br><span style="font-size:11px; color:#888;">例：4/2（木）15時までに承認</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <div style="margin-top:12px; font-size:12px; color:#666; line-height:1.6;">
+            💡 <strong>稟議の承認期限の目安：</strong>月次の場合、第５営業日＝4/7（火）が支払依頼申請の〆切のため、稟議の承認期限は4/3（金）＝第３営業日頃に設定する。土日は経理が稼働しないため逆算が必要。
+          </div>
+        </div>
+
+        <!-- タイムライン図解 -->
+        <div style="background:white; border-radius:12px; padding:24px 28px; margin-bottom:24px; box-shadow:0 2px 8px rgba(0,0,0,0.06);">
+          <div style="font-weight:700; font-size:14px; color:#1a1a2e; margin-bottom:20px;">📆 月次の申請スケジュール（例：4月）</div>
+          <div style="position:relative; padding:0 12px;">
+            <!-- ライン -->
+            <div style="position:absolute; top:28px; left:40px; right:40px; height:4px; background:#e0e4ef; border-radius:2px;"></div>
+            <div style="position:absolute; top:28px; left:40px; width:calc(60% - 0px); height:4px; background:#7ec8e3; border-radius:2px;"></div>
+            <!-- ステップ -->
+            <div style="display:flex; justify-content:space-between; position:relative;">
+
+              <!-- 稟議申請 -->
+              <div style="display:flex; flex-direction:column; align-items:center; width:80px;">
+                <div style="width:20px; height:20px; border-radius:50%; background:#aab0c6; border:3px solid white; box-shadow:0 0 0 2px #aab0c6; margin-bottom:12px; margin-top:18px;"></div>
+                <div style="font-size:11px; font-weight:700; color:#555; text-align:center; line-height:1.4;">稟議申請<br>提出</div>
+                <div style="font-size:10px; color:#aaa; margin-top:4px; text-align:center;">できるだけ<br>早めに</div>
+              </div>
+
+              <!-- 稟議承認 -->
+              <div style="display:flex; flex-direction:column; align-items:center; width:80px;">
+                <div style="background:#fff3cd; border:2px solid #f5a623; border-radius:6px; font-size:10px; font-weight:700; color:#856404; padding:2px 6px; margin-bottom:6px; white-space:nowrap;">目安</div>
+                <div style="width:20px; height:20px; border-radius:50%; background:#f5a623; border:3px solid white; box-shadow:0 0 0 2px #f5a623; margin-bottom:12px;"></div>
+                <div style="font-size:11px; font-weight:700; color:#856404; text-align:center; line-height:1.4;">稟議<br>承認完了</div>
+                <div style="font-size:10px; color:#aaa; margin-top:4px; text-align:center;">4/3（金）<br>第３営業日</div>
+              </div>
+
+              <!-- 支払依頼申請 -->
+              <div style="display:flex; flex-direction:column; align-items:center; width:80px;">
+                <div style="background:#ffe0e0; border:2px solid #c0392b; border-radius:6px; font-size:10px; font-weight:700; color:#c0392b; padding:2px 6px; margin-bottom:6px; white-space:nowrap;">〆切</div>
+                <div style="width:20px; height:20px; border-radius:50%; background:#c0392b; border:3px solid white; box-shadow:0 0 0 2px #c0392b; margin-bottom:12px;"></div>
+                <div style="font-size:11px; font-weight:700; color:#c0392b; text-align:center; line-height:1.4;">支払依頼<br>申請締め切り</div>
+                <div style="font-size:10px; color:#aaa; margin-top:4px; text-align:center;">4/7（火）<br>第５営業日</div>
+              </div>
+
+              <!-- 承認締め切り -->
+              <div style="display:flex; flex-direction:column; align-items:center; width:80px;">
+                <div style="background:#ffe0e0; border:2px solid #c0392b; border-radius:6px; font-size:10px; font-weight:700; color:#c0392b; padding:2px 6px; margin-bottom:6px; white-space:nowrap;">〆切</div>
+                <div style="width:20px; height:20px; border-radius:50%; background:#c0392b; border:3px solid white; box-shadow:0 0 0 2px #c0392b; margin-bottom:12px;"></div>
+                <div style="font-size:11px; font-weight:700; color:#c0392b; text-align:center; line-height:1.4;">支払依頼<br>承認締め切り</div>
+                <div style="font-size:10px; color:#aaa; margin-top:4px; text-align:center;">4/9（木）<br>第７営業日</div>
+              </div>
+
+              <!-- 支払実行 -->
+              <div style="display:flex; flex-direction:column; align-items:center; width:80px;">
+                <div style="width:20px; height:20px; border-radius:50%; background:#34c77b; border:3px solid white; box-shadow:0 0 0 2px #34c77b; margin-bottom:12px; margin-top:18px;"></div>
+                <div style="font-size:11px; font-weight:700; color:#2d6a4f; text-align:center; line-height:1.4;">支払<br>実行</div>
+                <div style="font-size:10px; color:#aaa; margin-top:4px; text-align:center;">期日通りに<br>支払われる</div>
+              </div>
+
+            </div>
+          </div>
+          <div style="margin-top:20px; font-size:12px; color:#888; border-top:1px solid #eee; padding-top:12px;">
+            ⚠️ 稟議の承認が遅れると、支払依頼申請に進めず期日通りの支払いができなくなります。
+          </div>
+        </div>
 
         <ul class="steps">
           <li class="step">
